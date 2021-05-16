@@ -1,0 +1,94 @@
+html {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.page-container {
+    display: flexbox;
+    flex-grow: 1;
+}
+.navbar {
+    display: flex;
+}
+.navbar-spacer {
+    flex-grow: 2;
+}
+.app-icon {
+    height: auto;
+    width: 24px;
+}
+.user-icon {
+    height: auto;
+    width: 30px;
+}
+.navbar, .navbar-spacer, .app-icon, .user-icon, a {
+    padding: 10px;
+    align-items: center;
+}
+.page-content {
+    margin-top: 200px;
+    text-align: center;
+}
+.logo {
+    width: auto;
+    height: 92px;
+}
+.src-src {
+    width: 582px;
+    height: 44px;
+    align-content: center;
+    display: flex;
+    margin: auto;
+    background-color:white;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dfe1e5;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.src {
+    border-radius: 25px;
+    border-style: none;
+    width: 100%;
+}
+.mag {
+    width: 16px;
+    height: 16px;
+    padding-top: 15px;
+    padding-left: 10px;
+    opacity: 80%;
+}
+.search-button, .lucky {
+    margin: 11px 4px;
+    background-color: #f8f9fa;
+    border-style: none;
+    height: 36px;
+    padding: 0 16px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.page-footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    height: 47px;
+    background-color: #f2f2f2;
+}
+.spacer-left, .spacer-right {
+    flex-grow: 1;
+}
+.leaf {
+    width: 12px;
+    height: 14px;
+}
+.advertising, .business, .hsw, .carbon-lie, .privacy, .terms, .settings {
+    color: #70757a;
+}
